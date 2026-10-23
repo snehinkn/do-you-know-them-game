@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Secrets — the Supabase keys live here. Must never be committed.
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Design handoff bundles - reference material for a design pass, not shipped
+# code. They used to be committed; that bloated the repo with binary zips
+# nobody needs to clone to run the app. Kept on disk, just no longer tracked.
+*.zip
+
+# Internal dev history - session handoffs, audits, the original app plan, and
+# the predecessor project's own history. Working notes for continuing
+# development, not app content. Kept on disk for reference, never published,
+# since this repo is meant to be shareable.
+internal-history/
+design-bundles/
